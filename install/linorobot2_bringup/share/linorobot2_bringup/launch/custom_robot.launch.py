@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/src/linorobot2/linorobot2_bringup/launch/custom_robot.launch.py
+/home/rens/linorobot2_ws copy/src/linorobot2/linorobot2_bringup/launch/custom_robot.launch.py

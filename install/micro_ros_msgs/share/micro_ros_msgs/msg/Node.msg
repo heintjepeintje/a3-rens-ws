@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/src/uros/micro_ros_msgs/msg/Node.msg
+/home/rens/linorobot2_ws copy/src/uros/micro_ros_msgs/msg/Node.msg

@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/src/linorobot2/linorobot2_navigation/launch/slam.launch.py
+/home/rens/linorobot2_ws copy/src/linorobot2/linorobot2_navigation/launch/slam.launch.py

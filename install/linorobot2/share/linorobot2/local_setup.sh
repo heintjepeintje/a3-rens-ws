@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/build/linorobot2/ament_cmake_environment_hooks/local_setup.sh
+/home/rens/linorobot2_ws copy/build/linorobot2/ament_cmake_environment_hooks/local_setup.sh

@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/build/sllidar_ros2/ament_cmake_core/sllidar_ros2Config-version.cmake
+/home/rens/linorobot2_ws copy/build/sllidar_ros2/ament_cmake_core/sllidar_ros2Config-version.cmake

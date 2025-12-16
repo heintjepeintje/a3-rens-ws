@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/src/micro_ros_setup/scripts/flash_firmware.sh
+/home/rens/linorobot2_ws copy/src/micro_ros_setup/scripts/flash_firmware.sh

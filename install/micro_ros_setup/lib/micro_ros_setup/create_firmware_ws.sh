@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/src/micro_ros_setup/scripts/create_firmware_ws.sh
+/home/rens/linorobot2_ws copy/src/micro_ros_setup/scripts/create_firmware_ws.sh

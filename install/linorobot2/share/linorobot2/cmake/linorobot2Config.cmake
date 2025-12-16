@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/build/linorobot2/ament_cmake_core/linorobot2Config.cmake
+/home/rens/linorobot2_ws copy/build/linorobot2/ament_cmake_core/linorobot2Config.cmake

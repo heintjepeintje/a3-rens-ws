@@ -1,1 +1,1 @@
-/home/rens/linorobot2_ws/build/linorobot2_gazebo/hook/linorobot2_gazebo.sh
+/home/rens/linorobot2_ws copy/build/linorobot2_gazebo/hook/linorobot2_gazebo.sh
