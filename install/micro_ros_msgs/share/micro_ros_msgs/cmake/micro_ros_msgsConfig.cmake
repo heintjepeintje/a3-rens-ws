@@ -1,0 +1,1 @@
+/home/rens/linorobot2_ws copy/build/micro_ros_msgs/ament_cmake_core/micro_ros_msgsConfig.cmake

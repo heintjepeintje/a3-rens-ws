@@ -1,0 +1,37 @@
+running develop
+running egg_info
+creating linorobot2_gazebo.egg-info
+writing linorobot2_gazebo.egg-info/PKG-INFO
+writing dependency_links to linorobot2_gazebo.egg-info/dependency_links.txt
+writing entry points to linorobot2_gazebo.egg-info/entry_points.txt
+writing top-level names to linorobot2_gazebo.egg-info/top_level.txt
+writing manifest file 'linorobot2_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'linorobot2_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'linorobot2_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/lib/python3.12/site-packages/linorobot2-gazebo.egg-link (link to .)
+Installing command_timeout script to /home/rens/linorobot2_ws/install/linorobot2_gazebo/lib/linorobot2_gazebo
+
+Installed /home/rens/linorobot2_ws/build/linorobot2_gazebo
+running symlink_data
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/ament_index
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/ament_index/resource_index
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/resource/linorobot2_gazebo -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/package.xml -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/launch
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/launch/gazebo.launch.py -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/launch
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/worlds
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/worlds/turtlebot3_world.sdf -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/worlds
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/worlds/playground.sdf -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/worlds
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/rviz
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/rviz/view_urdf.rviz -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/rviz
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/hook/linorobot2_gazebo.sh -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/hook
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models/turtlebot3_world
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/models/turtlebot3_world/model.sdf -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models/turtlebot3_world
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/models/turtlebot3_world/model-1_4.sdf -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models/turtlebot3_world
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/models/turtlebot3_world/model.config -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models/turtlebot3_world
+creating /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models/turtlebot3_world/meshes
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/models/turtlebot3_world/meshes/wall.dae -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models/turtlebot3_world/meshes
+symbolically linking /home/rens/linorobot2_ws/build/linorobot2_gazebo/models/turtlebot3_world/meshes/hexagon.dae -> /home/rens/linorobot2_ws/install/linorobot2_gazebo/share/linorobot2_gazebo/models/turtlebot3_world/meshes

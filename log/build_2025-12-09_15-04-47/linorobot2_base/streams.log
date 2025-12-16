@@ -1,0 +1,42 @@
+[0.150s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/linorobot2/linorobot2_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/linorobot2_base
+[0.779s] -- The C compiler identification is GNU 13.3.0
+[1.334s] -- The CXX compiler identification is GNU 13.3.0
+[1.514s] -- Detecting C compiler ABI info
+[2.532s] -- Detecting C compiler ABI info - done
+[2.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.584s] -- Detecting C compile features
+[2.588s] -- Detecting C compile features - done
+[2.662s] -- Detecting CXX compiler ABI info
+[3.829s] -- Detecting CXX compiler ABI info - done
+[3.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.927s] -- Detecting CXX compile features
+[3.933s] -- Detecting CXX compile features - done
+[4.015s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.978s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.907s] -- Configuring done (8.6s)
+[8.997s] -- Generating done (0.1s)
+[9.053s] -- Build files have been written to: /home/rens/linorobot2_ws/build/linorobot2_base
+[9.090s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/linorobot2/linorobot2_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/linorobot2_base
+[9.097s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[9.666s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[9.667s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_base
+[9.818s] -- Install configuration: ""
+[9.822s] -- Execute custom install script
+[9.836s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config/ekf.yaml
+[9.935s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/package_run_dependencies/linorobot2_base
+[10.077s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/parent_prefix_path/linorobot2_base
+[10.236s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.sh
+[10.332s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.dsv
+[10.422s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.sh
+[10.508s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.dsv
+[10.591s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.bash
+[10.691s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.sh
+[10.775s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.zsh
+[10.857s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.dsv
+[10.941s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv
+[11.038s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/packages/linorobot2_base
+[11.117s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig.cmake
+[11.187s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig-version.cmake
+[11.263s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.xml
+[11.418s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_base

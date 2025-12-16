@@ -1,0 +1,52 @@
+[0.109s] Invoking command in '/home/rens/linorobot2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.127s] [ 90%] Built target sllidar_node
+[1.381s] [100%] Built target sllidar_client
+[1.582s] Invoked command in '/home/rens/linorobot2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.609s] Invoking command in '/home/rens/linorobot2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/sllidar_ros2
+[1.710s] -- Install configuration: ""
+[1.713s] -- Execute custom install script
+[1.719s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.721s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.724s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.725s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.729s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.730s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.733s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.734s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.737s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.737s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.741s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.741s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.745s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.745s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.749s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.750s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.754s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.755s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.759s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.761s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.765s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.767s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.769s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.774s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.777s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.781s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.782s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.783s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.789s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.790s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.791s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.794s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.795s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.799s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.799s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.806s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.807s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.807s] -- Symlinking: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.914s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.920s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.921s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.934s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.935s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.936s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[1.953s] Invoked command in '/home/rens/linorobot2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/sllidar_ros2

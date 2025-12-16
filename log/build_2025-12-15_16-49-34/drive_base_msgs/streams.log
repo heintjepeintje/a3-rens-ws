@@ -1,0 +1,201 @@
+[0.132s] Invoking command in '/home/rens/linorobot2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/drive_base_msgs
+[0.513s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.726s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.405s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.511s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.896s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.956s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.414s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.487s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.804s] -- Found ament_cmake_cppcheck: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[4.812s] -- Found ament_cmake_cpplint: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[4.816s] -- Found ament_cmake_uncrustify: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[4.826s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.242s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.150s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[9.343s] -- Found ament_cmake_flake8: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[9.351s] -- Found ament_cmake_pep257: 0.17.3 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[9.496s] -- Configuring done (9.1s)
+[10.283s] -- Generating done (0.7s)
+[10.449s] -- Build files have been written to: /home/rens/linorobot2_ws/build/drive_base_msgs
+[10.518s] Invoked command in '/home/rens/linorobot2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake /home/rens/linorobot2_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/rens/linorobot2_ws/install/drive_base_msgs
+[10.529s] Invoking command in '/home/rens/linorobot2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/drive_base_msgs -- -j4 -l4
+[11.311s] [  1%] Built target drive_base_msgs__rosidl_generator_type_description
+[11.469s] [  1%] Built target ament_cmake_python_symlink_drive_base_msgs
+[11.790s] [  3%] Built target drive_base_msgs__cpp
+[11.934s] [ 25%] Built target drive_base_msgs__rosidl_generator_c
+[12.343s] [ 34%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[12.404s] [ 43%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[12.544s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[12.744s] [ 62%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[12.867s] [ 71%] Built target drive_base_msgs__rosidl_typesupport_c
+[12.905s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[13.226s] [ 81%] Built target drive_base_msgs
+[13.494s] [ 82%] Built target drive_base_msgs__py
+[13.925s] [ 90%] Built target drive_base_msgs__rosidl_generator_py
+[14.239s] [ 93%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c
+[14.284s] [ 96%] Built target drive_base_msgs_s__rosidl_typesupport_c
+[14.326s] [100%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c
+[14.400s] running egg_info
+[14.524s] writing drive_base_msgs.egg-info/PKG-INFO
+[14.530s] writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt
+[14.531s] writing top-level names to drive_base_msgs.egg-info/top_level.txt
+[15.090s] reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[15.099s] writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[15.313s] [100%] Built target ament_cmake_python_build_drive_base_msgs_egg
+[15.408s] Invoked command in '/home/rens/linorobot2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/drive_base_msgs -- -j4 -l4
+[15.416s] Invoking command in '/home/rens/linorobot2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/drive_base_msgs
+[15.485s] -- Install configuration: ""
+[15.488s] -- Execute custom install script
+[15.491s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[15.493s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json
+[15.495s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json
+[15.496s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json
+[15.497s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json
+[15.500s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h
+[15.504s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h
+[15.506s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h
+[15.506s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h
+[15.509s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h
+[15.509s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h
+[15.510s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h
+[15.510s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h
+[15.514s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h
+[15.514s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h
+[15.515s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h
+[15.516s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h
+[15.519s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h
+[15.523s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h
+[15.524s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h
+[15.526s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.527s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h
+[15.527s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[15.532s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[15.534s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[15.534s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[15.536s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[15.537s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[15.538s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.540s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp
+[15.544s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp
+[15.555s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp
+[15.559s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp
+[15.562s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp
+[15.565s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp
+[15.567s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[15.570s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp
+[15.571s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp
+[15.575s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp
+[15.576s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[15.581s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp
+[15.582s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp
+[15.585s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp
+[15.587s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[15.587s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[15.588s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[15.588s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[15.588s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[15.592s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.593s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp
+[15.597s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[15.598s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[15.599s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[15.599s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[15.603s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.603s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[15.607s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[15.608s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[15.613s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[15.614s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.616s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[15.619s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[15.626s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[15.626s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[15.627s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[15.628s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[15.639s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[15.643s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[15.650s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[15.651s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[15.656s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py
+[15.657s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c
+[15.658s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.659s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[15.660s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[15.665s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[15.669s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[15.669s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/__init__.py
+[15.670s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info.py
+[15.673s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info_s.c
+[15.674s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header.py
+[15.675s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header_s.c
+[15.678s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status.py
+[15.680s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status_s.c
+[15.681s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command.py
+[15.682s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[15.684s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[15.685s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[15.687s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[15.687s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[15.692s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[15.693s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[15.693s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[15.694s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[15.694s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[15.694s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[15.695s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[15.697s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[15.699s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[15.699s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[15.700s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[15.703s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[15.704s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[15.704s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[15.705s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[15.705s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[15.706s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[15.709s] -- Symlinking: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[15.794s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[15.796s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[15.797s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.802s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.803s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.806s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.807s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.808s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.808s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[15.809s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[15.815s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[15.818s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[15.819s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[15.847s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.850s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[15.858s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[15.868s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[15.874s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[16.177s] Listing '/home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs'...
+[16.181s] Compiling '/home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py'...
+[16.186s] Listing '/home/rens/linorobot2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg'...
+[16.231s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so
+[16.238s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake
+[16.241s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.250s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.253s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.255s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake
+[16.257s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.262s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.267s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.274s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.280s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[16.282s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.289s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.293s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.298s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[16.299s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.300s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake
+[16.301s] -- Up-to-date: /home/rens/linorobot2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.310s] Invoked command in '/home/rens/linorobot2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/drive_base_msgs

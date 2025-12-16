@@ -1,0 +1,22 @@
+[0.113s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[0.482s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[0.484s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_base
+[0.586s] -- Install configuration: ""
+[0.588s] -- Execute custom install script
+[0.590s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/config/ekf.yaml
+[0.592s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/package_run_dependencies/linorobot2_base
+[0.595s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/parent_prefix_path/linorobot2_base
+[0.597s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.sh
+[0.597s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/ament_prefix_path.dsv
+[0.600s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.sh
+[0.602s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/environment/path.dsv
+[0.605s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.bash
+[0.608s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.sh
+[0.611s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.zsh
+[0.613s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/local_setup.dsv
+[0.616s] -- Symlinking: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.dsv
+[0.653s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/ament_index/resource_index/packages/linorobot2_base
+[0.656s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig.cmake
+[0.657s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/cmake/linorobot2_baseConfig-version.cmake
+[0.659s] -- Up-to-date symlink: /home/rens/linorobot2_ws/install/linorobot2_base/share/linorobot2_base/package.xml
+[0.675s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/rens/linorobot2_ws/build/linorobot2_base

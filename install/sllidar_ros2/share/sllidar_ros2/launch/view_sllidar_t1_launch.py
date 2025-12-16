@@ -1,0 +1,1 @@
+/home/rens/linorobot2_ws copy/sllidar_ros2/launch/view_sllidar_t1_launch.py

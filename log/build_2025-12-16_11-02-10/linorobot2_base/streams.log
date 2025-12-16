@@ -1,0 +1,5 @@
+[0.128s] Invoking command in '/home/rens/linorobot2_ws/build/linorobot2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_base -- -j4 -l4
+[0.480s] [0mCMake Error: The source directory "/home/rens/linorobot2_ws/src/linorobot2/linorobot2_base" does not exist.
+[0.481s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.493s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.502s] Invoked command in '/home/rens/linorobot2_ws/build/linorobot2_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rens/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --build /home/rens/linorobot2_ws/build/linorobot2_base -- -j4 -l4
