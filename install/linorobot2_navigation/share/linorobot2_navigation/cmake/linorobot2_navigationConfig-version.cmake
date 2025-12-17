@@ -1,1 +1,0 @@
-/home/rens/linorobot2_ws copy/build/linorobot2_navigation/ament_cmake_core/linorobot2_navigationConfig-version.cmake
