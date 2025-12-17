@@ -1,1 +1,0 @@
-/home/rens/linorobot2_ws copy/build/micro_ros_msgs/ament_cmake_environment_hooks/local_setup.zsh

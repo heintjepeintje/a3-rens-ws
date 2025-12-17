@@ -1,1 +1,0 @@
-/home/rens/linorobot2_ws copy/build/linorobot2_description/ament_cmake_core/linorobot2_descriptionConfig-version.cmake

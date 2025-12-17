@@ -1,1 +1,0 @@
-/home/rens/linorobot2_ws copy/build/linorobot2_bringup/ament_cmake_core/linorobot2_bringupConfig.cmake

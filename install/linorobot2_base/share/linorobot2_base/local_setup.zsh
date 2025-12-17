@@ -1,1 +1,0 @@
-/home/rens/linorobot2_ws copy/build/linorobot2_base/ament_cmake_environment_hooks/local_setup.zsh
