@@ -22,7 +22,7 @@ a3-rens-ws/
 └── README.md
 ```
 
-## 🚀 Features
+## Features
 
 - **Robot Bringup**: Automated robot initialization and hardware interface
 - **Teleoperation**: PS3 controller support for manual robot control
@@ -30,7 +30,7 @@ a3-rens-ws/
 - **Lidar Integration**:  SLAMTEC Lidar support for environment scanning
 - **Micro-ROS**:  Microcontroller integration with ROS2
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - ROS2 (Humble/Foxy or compatible distribution)
 - Ubuntu 20.04/22.04
