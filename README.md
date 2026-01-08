@@ -2,11 +2,11 @@
 
 ReNS (ROS2) workspace for A3 robotics project featuring autonomous navigation and control. 
 
-## 📋 Overview
+## Overview
 
 This repository contains a ROS2 workspace configured for autonomous robot development using the Linorobot2 framework.  It includes packages for robot bringup, teleoperation, SLAM (Simultaneous Localization and Mapping), and micro-ROS integration.
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 a3-rens-ws/
