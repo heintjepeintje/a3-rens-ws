@@ -1,8 +1,0 @@
-scan_filter_chain:
-  - name: box_filter
-    type: laser_filters/LaserScanAngularBoundsFilterInPlace
-    params:
-      # We behouden de hoeken van -157.5° tot +157.5°
-      # Alles tussen 157.5° en 202.5° (de achterkant) wordt genegeerd.
-      lower_angle: -2.748
-      upper_angle: 2.748
