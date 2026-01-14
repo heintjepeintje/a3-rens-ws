@@ -112,4 +112,4 @@ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 - Kyara Mennens ([@gravityjournal](https://github.com/gravityjournal))
 - Dimitri van der Hel ([@Dimitri1708](https://github.com/dmitri1708))
 
-Het is belangrijk om te vermelden dat degene door wie de commit is gemaakt niet per-se degene is die de veranderingen heeft gemaakt. Dit komt doordat dan een ander persoon ingelogd was op github in de robot 
+Het is belangrijk om te vermelden dat degene door wie de commit is gemaakt niet per-se degene is die de veranderingen heeft gemaakt. Dit komt doordat dan een ander persoon ingelogd was op github in de robot. 
