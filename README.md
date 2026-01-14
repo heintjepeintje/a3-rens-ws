@@ -72,6 +72,7 @@ ros2 launch linorobot2_navigation slam.launch.py
 ```bash
 ros2 launch linorobot2_navigation navigation.launch.py map:=<path_to_map>.yaml
 ```
+Vervang hierbij ```<path_to_map>``` door de bestandsnaam van je lokale map.
 
 ### 6 Camera
 
@@ -110,3 +111,5 @@ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 - Abdullah Al Kathiry ([@lateNightCoder200](https://github.com/lateNightCoder200))
 - Kyara Mennens ([@gravityjournal](https://github.com/gravityjournal))
 - Dimitri van der Hel ([@Dimitri1708](https://github.com/dmitri1708))
+
+Het is belangrijk om te vermelden dat degene door wie de commit is gemaakt niet per-se degene is die de veranderingen heeft gemaakt. Dit komt doordat dan een ander persoon ingelogd was op github in de robot 
