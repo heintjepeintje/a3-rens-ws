@@ -1,0 +1,1 @@
+pio run --target upload -e adafruit_feather_esp32_v2 && pio device monitor -p /dev/ttyACM1 -b 115200

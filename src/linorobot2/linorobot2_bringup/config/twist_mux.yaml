@@ -1,0 +1,15 @@
+twist_mux:
+  ros__parameters:
+    use_stamped: false             # mandatory in Jazzy
+    topic_list:
+      - name: "/cmd_vel_safe"
+        timeout: "0.5"
+        priority: "100"
+        short_desc: "Safety stop from ultrasonic sensors"
+
+      - name: "/cmd_vel_joy"
+        timeout: "0.5"
+        priority: "50"
+        short_desc: "Joystick commands"
+
+    publish_period: "0.05"

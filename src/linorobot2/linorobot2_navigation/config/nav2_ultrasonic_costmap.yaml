@@ -1,0 +1,56 @@
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      update_frequency: 10.0
+      publish_frequency: 10.0
+
+      global_frame: odom
+      robot_base_frame: base_link
+      use_sim_time: false
+
+      rolling_window: true
+      width: 3.0
+      height: 3.0
+      resolution: 0.05
+
+      plugins:
+        - obstacle_layer
+        - inflation_layer
+
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: true
+
+        observation_sources: ultrasonic1 ultrasonic2 ultrasonic3
+
+        ultrasonic1:
+          topic: /ultrasonic/range1
+          sensor_frame: ultrasonic_1_link
+          data_type: Range
+          clearing: true
+          marking: true
+          obstacle_max_range: 0.4
+          raytrace_max_range: 0.6
+
+        ultrasonic2:
+          topic: /ultrasonic/range2
+          sensor_frame: ultrasonic_2_link
+          data_type: Range
+          clearing: true
+          marking: true
+          obstacle_max_range: 0.4
+          raytrace_max_range: 0.6
+
+        ultrasonic3:
+          topic: /ultrasonic/range3
+          sensor_frame: ultrasonic_3_link
+          data_type: Range
+          clearing: true
+          marking: true
+          obstacle_max_range: 0.4
+          raytrace_max_range: 0.6
+
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.5
+        cost_scaling_factor: 3.0

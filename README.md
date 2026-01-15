@@ -13,6 +13,25 @@ Het project is opgesteld zodat iedere losse component een eigen package is en du
 ### Hardware
 - ReNS robot
 
+## Structuur
+```
+src
+├─ controller
+├─ firmware
+├─ linorobot2
+│  ├─ linorobot2_bringup
+│  ├─ linorobot2_description
+│  ├─ linorobot2_gazebo
+│  ├─ linorobot2_navigation
+├─ micro_ros_setup
+├─ oak_detection_ws
+│  ├─ oak_camera_debug
+│  ├─ oak_camera_detection
+└─ uros
+```
+
+De meest 'lage' folder die je in het bovenstaande diagram ziet is een 'project' binnen de workspace, deze zijn gegroepeerd om zo soortgelijke functionaliteit bij elkaar te houden.
+
 ## Uitvoeren 
 Er zijn verschillende componenten van de robot die allemaal los uitvoerbaar zijn:
 ### 1. Verbinding maken met de robot
@@ -22,11 +41,7 @@ Vervolgens kun je de individuele robots bereiken met behulp van de volgende comm
 ```bash
 ssh rens@<ip_robot>
 ```
-Hierbij vervang je ```<ip_robot>``` door een van de volgende IPv4-adressen:
-* 192.168.12.2 (Robot 28)
-* 192.168.10.168 (Robot 27)
-* 192.168.11.127 (Robot 07)
-* 192.168.8.207 (Fleetmanager)
+Hierbij vervang je ```<ip_robot>``` door het IPv4 adres van je robot. 
 
 ### 2 Opzetten van het project
 Om het project te compileren voer je de volgende commando uit
@@ -72,6 +87,7 @@ ros2 launch linorobot2_navigation slam.launch.py
 ```bash
 ros2 launch linorobot2_navigation navigation.launch.py map:=<path_to_map>.yaml
 ```
+Vervang hierbij ```<path_to_map>``` door de bestandsnaam van je lokale map.
 
 ### 6 Camera
 
@@ -102,6 +118,24 @@ ros2 run ultrasonic_listener ultrasonic
 ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 ```
 
+### 7. Actuator
+
+#### 7.1 Actuator Agent
+```bash
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/micro_ros_esp32 -b 115200
+```
+
+**NOTE:** Als dit een error geeft, probeer dan de ESP32 opnieuw te flashen.
+```bash
+pio run --target upload -e adafruit_feather_esp32_v2
+pio device monitor -p /dev/ttyACM1 -b 115200
+```
+
+#### 7.2 Node voor het omzetten van data vanuit de camera naar de actuator
+```bash
+ros2 run oak_to_actuator center_actuator
+```
+
 ## Auteurs 
 
 - Hein Dekkers ([@heintjepeintje](https://github.com/heintjepeintje))
@@ -110,3 +144,5 @@ ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 - Abdullah Al Kathiry ([@lateNightCoder200](https://github.com/lateNightCoder200))
 - Kyara Mennens ([@gravityjournal](https://github.com/gravityjournal))
 - Dimitri van der Hel ([@Dimitri1708](https://github.com/dmitri1708))
+
+Het is belangrijk om te vermelden dat degene door wie de commit is gemaakt niet per-se degene is die de veranderingen heeft gemaakt. Dit komt doordat dan een ander persoon ingelogd was op github in de robot. 
