@@ -26,6 +26,7 @@ struct ShapeInformation
 ShapeInformation get_triangle_box(const Mat& dial_img, Mat& in_img);
 ShapeInformation get_center_box(int size, Mat& in_img); // in which format should i do size...
 bool overlapping_triangle_center(ShapeInformation& triangle, ShapeInformation& center);
+void adjust_contrast_brightness(Mat& image, double alpha, int beta);
 
 class CameraDetectionNode : public rclcpp::Node
 {
@@ -39,20 +40,9 @@ class CameraDetectionNode : public rclcpp::Node
         // create publisher to publish triangle location
         publisher_triangle_location = this->create_publisher<std_msgs::msg::String>("/detection/triangle_position", 10);
     }
-        private:
-        ShapeInformation center_box;
 
-        // Function to adjust contrast and brightness
-        void adjust_contrast_brightness(Mat& image, double alpha, int beta)
-        {
-            for( int y = 0; y < image.rows; y++ ) {
-                for( int x = 0; x < image.cols; x++ ) {
-                    for( int c = 0; c < image.channels(); c++ ) {
-                        image.at<Vec3b>(y,x)[c] = saturate_cast<uchar>(alpha * image.at<Vec3b>(y,x)[c] + beta);
-                    }
-                }
-            }
-        }
+    private:
+        ShapeInformation center_box;
 
         void imageCallback(const sensor_msgs::msg::Image::SharedPtr msg)
         {

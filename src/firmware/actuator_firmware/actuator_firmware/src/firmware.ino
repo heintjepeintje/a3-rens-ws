@@ -109,7 +109,6 @@ bool create_entities() {
         ON_NEW_DATA) != RCL_RET_OK)
     return false;
 
-  last_msg_time = millis();
   return true;
 }
 

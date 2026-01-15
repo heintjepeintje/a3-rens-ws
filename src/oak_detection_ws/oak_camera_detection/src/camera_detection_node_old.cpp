@@ -89,7 +89,7 @@ TriangleInformation get_triangle(const Mat& dial_img, Mat& in_img)
 class CameraPreviewNode : public rclcpp::Node
 {
 public:
-    CameraPreviewNode() : Node("camera_detection_node")
+    CameraPreviewNode() : Node("camera_detection_node_old")
     {
         subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
             "/camera/rgb/image_raw", 10,
