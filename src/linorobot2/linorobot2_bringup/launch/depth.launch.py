@@ -15,7 +15,7 @@
 import os
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
-from launch.substitutions import PathJoinSubstitution, PythonExpression, LaunchConfiguration
+from launch.substitutions import PathJoinSubstitution, PythonExpression, LaunchConfiguration, EqualsSubstitution
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.substitutions import FindPackageShare
 from launch.conditions import IfCondition
